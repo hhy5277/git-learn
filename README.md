@@ -3,6 +3,8 @@ git快速学习指南
 
 ##下载git
 http://git-scm.com/
+windows系统安装教程如下：http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html
+mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的git版本号，命令为：git --version
 
 ##配置用户名及密码（前面的$不需要输入）
 
