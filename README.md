@@ -1,6 +1,9 @@
 #learn git
 git快速学习指南
 
+##下载git
+http://git-scm.com/
+
 ##配置用户名及密码（前面的$不需要输入）
 
     $ git config --global user.name "yourname"
