@@ -34,3 +34,9 @@ mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的
     git push origin master                                //合并进去
 
 上面的"git add ."适用于本地只修改增加文件或文件夹，如果本地执行了删除文件或文件夹那么请使用“git add -A”命令
+
+放弃本地修改: 
+
+        git reset --hard origin/master
+
+master表示主，如果是拷贝的其他分支，那么就用分支名
