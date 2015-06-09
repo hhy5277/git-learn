@@ -18,11 +18,11 @@ mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的
 
     $ ssh-keygen -t rsa -C "youremail"
   
-按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub，我们后面需要的秘钥就在id_rsa.pub这个里面
+按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub，（文件地址在命令行运行之后的提示信息中有，win一般在“c:/users/yourname/.ssh”）我们后面需要的秘钥就在id_rsa.pub这个里面
 
 ##在github上添加秘钥
 
-将上面的id_rsa.pub文件中的内容拷贝，注意前后不能有多余的空格，这里要求比较严格。然后在我们的github的用户设置中“SSH key”菜单中，添加我们的秘钥即可。
+将上面的id_rsa.pub文件中的内容拷贝，注意前后不能有多余的空格，这里要求比较严格。然后在我们的github的用户设置中点击“SSH key”菜单中，添加我们的秘钥即可。
 
 ##git常用操作命令
 
