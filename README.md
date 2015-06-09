@@ -52,3 +52,6 @@ mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的
     git reset --hard HEAD                                 // 撤销到上次提交
     git checkout -- filename                              // 撤销某个文件的修改
     git reset --hard origin/master                        // 放弃本地修改，master表示主，如果是拷贝的其他分支，那么就用分支名
+
+
+更多git参考：[git book](http://git-scm.com/book/zh/v1)
