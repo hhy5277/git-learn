@@ -24,6 +24,8 @@ mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的
 
 将上面的id_rsa.pub文件中的内容拷贝，注意前后不能有多余的空格，这里要求比较严格。然后在我们的github的用户设置中点击“SSH key”菜单中，添加我们的秘钥即可。
 
+详细可参考[Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/)
+
 ##git常用操作命令
 
     git clone git@github.com:marvin1023/git-learn.git     // 克隆某个项目，以该文档为例
