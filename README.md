@@ -1,7 +1,7 @@
-#learn git
+# learn git
 git快速学习指南
 
-##下载git
+## 下载git
 
 http://git-scm.com/
 
@@ -9,24 +9,24 @@ windows系统安装教程如下：http://jingyan.baidu.com/article/90895e0fb3495
 
 mac系统安装的Xcode就已经带了git，你可以运行终端查看下你的git版本号，命令为：git --version
 
-##配置用户名及密码（前面的$不需要输入）
+## 配置用户名及密码（前面的$不需要输入）
 
     $ git config --global user.name "yourname"
     $ git config --global user.email "youremail"
 
-##设置SSH
+## 设置SSH
 
     $ ssh-keygen -t rsa -C "youremail"
   
 按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub，（文件地址在命令行运行之后的提示信息中有，win一般在“c:/users/yourname/.ssh”）我们后面需要的秘钥就在id_rsa.pub这个里面
 
-##在github上添加秘钥
+## 在github上添加秘钥
 
 将上面的id_rsa.pub文件中的内容拷贝，注意前后不能有多余的空格，这里要求比较严格。然后在我们的github的用户设置中点击“SSH key”菜单中，添加我们的秘钥即可。
 
 详细可参考[Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/)
 
-##git常用操作命令
+## git常用操作命令
 
     git clone git@github.com:marvin1023/git-learn.git     // 克隆某个项目，以该文档为例
     git status                                            // 检查变化 
